@@ -1,1 +1,3 @@
 # Sinalgo_Algo_Inondation
+
+Programmez un nouveau projet dont le protocole serait le suivant. Comme pour le walker, il y a 3 sortes de nœuds : un nœud initiateur InitNode,un nœud final EndNode et des nœuds intermédiaires FloodingNode. Le nœud initiateur envoie un message de type Flood à tous ses voisins. Un nœud intermédiaire qui reçoit un message de type Flood pour la première fois change de couleur et renvoie le message à tous ses voisins. Un nœud intermédiaire qui aurait déjà reçu un tel message et qui en reçoit de nouveau ne fait rien. Le nœud final quand il reçoit un message de type Flood change simplement de couleur.
